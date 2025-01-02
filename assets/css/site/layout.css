@@ -12,3 +12,7 @@
 .page-template .site-content {
     padding-top: 0;
 }
+
+a:hover, a:active {
+    text-decoration: underline;
+}
