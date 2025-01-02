@@ -6,3 +6,11 @@
 .gh-head-actions {
     font-weight: 600;
 }
+
+.gh-head.gh-outer {
+    background-color: #a3c2e0;
+}
+
+.gh-head-logo img {
+    max-height: 50px;
+}
