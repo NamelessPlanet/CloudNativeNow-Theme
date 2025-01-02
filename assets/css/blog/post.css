@@ -69,6 +69,11 @@
     word-break: break-word;
 }
 
+.post-excerpt::after {
+    content: '...';
+    opacity: 0.8;
+}
+
 .has-serif-body:not([class*=" gh-font-body"]):not([class^="gh-font-body"]) .post-excerpt {
     font-family: var(--gh-font-body, var(--font-serif));
 }
