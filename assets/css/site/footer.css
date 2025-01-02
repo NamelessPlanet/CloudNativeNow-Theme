@@ -1,0 +1,6 @@
+@media (max-width: 767px) {
+  .gh-powered-by, .gh-foot-menu {
+    display: none;
+  }
+
+}

@@ -7,8 +7,10 @@
     font-weight: 600;
 }
 
-.gh-head.gh-outer {
-    background-color: #a3c2e0;
+.gh-head.gh-outer,
+.is-head-open:not(.is-head-brand):not(.is-head-dark):not(.is-head-transparent) #gh-head,
+.is-head-open:not(.is-head-brand):not(.is-head-dark):not(.is-head-transparent) #gh-head .gh-head-actions {
+    background-color: #a3c2e0 !important;
 }
 
 .gh-head-logo img {
