@@ -6,6 +6,7 @@
 @import "site/layout.css";
 @import "site/term.css";
 @import "site/footer.css";
+@import "blog/archive.css";
 @import "blog/post.css";
 @import "blog/pagination.css";
 @import "blog/single.css";
