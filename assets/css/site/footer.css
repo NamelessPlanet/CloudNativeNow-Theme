@@ -7,8 +7,11 @@
     display: block;
   }
   .gh-foot-menu .nav {
-    flex-direction: row;
     width: 100%;
-    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    column-gap: 12px;
   }
 }
